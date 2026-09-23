@@ -12,10 +12,13 @@
 
 .section {
     display: flex;
+    padding: 1% 4%;
 }
 
 .container {
     display: flex;
+    flex-direction: row;
+    flex-basis: auto
 }
 
 #logo {
@@ -30,4 +33,13 @@
 
 .vertical {
     flex-direction: column;
+    justify-content: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+#header-link {
+    flex-basis: 400px;
 }
