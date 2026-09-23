@@ -12,7 +12,7 @@
 
 .section {
     display: flex;
-    padding: 1% 4%;
+    padding: 1% 6%;
 }
 
 .container {
@@ -42,4 +42,19 @@
 
 #header-link {
     flex-basis: 400px;
+}
+
+#image {
+    background-color: #686a6d;
+    flex-basis: 600px;
+    height: 200px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+#hero {
+    margin-top: 120px;
 }
