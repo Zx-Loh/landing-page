@@ -21,7 +21,7 @@
 
 .section {
     display: flex;
-    padding: 2% 12% 5%;
+    padding: 1% 12% 5%;
 }
 
 .container {
@@ -35,7 +35,8 @@
     font-weight: 700;
 }
 
-#hero-text, .bold {
+#hero-text,
+.bold {
     font-size: 48px;
     font-weight: 900;
 }
@@ -93,7 +94,8 @@
     height: 170px;
 }
 
-#info-header {
+#info-header,
+#quote-attribution {
     margin: 2%;
     font-size: 36px;
     color: #1f2937;
@@ -104,7 +106,8 @@
     width: 170px;
 }
 
-.info-section {
+.info-section,
+.quote-section {
     width: 70%;
 }
 
@@ -116,3 +119,19 @@
     font-size: 18px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    padding: 4% 10%;
+    margin: 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.text-end {
+    text-align: end;
+}
