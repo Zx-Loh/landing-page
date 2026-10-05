@@ -15,9 +15,13 @@
     color: #1F2937;
 }
 
+.grey {
+    color: #E5E7EB;
+}
+
 .section {
     display: flex;
-    padding: 1% 12% 5%;
+    padding: 2% 12% 5%;
 }
 
 .container {
@@ -107,3 +111,8 @@
 .text-center {
     text-align: center;
 }
+
+.subtext {
+    font-size: 18px;
+}
+
