@@ -136,3 +136,24 @@
 .text-end {
     text-align: end;
 }
+
+#call-to-action {
+    min-width: 65%;
+    min-height: 140px;
+    align-items: center;
+    padding: 2% 6%;
+    margin: 4% 10%;
+    border-radius: 10px;
+}
+
+#signup {
+    border: 2px solid white;
+    min-width: 12%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.medium {
+    font-size: 24px;
+    font-weight: 800;
+}
